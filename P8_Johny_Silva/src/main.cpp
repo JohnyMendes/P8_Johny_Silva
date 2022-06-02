@@ -13,7 +13,5 @@ if(Serial.available()){
   Serial2.write(Serial.read());
   delay(10);
   if(Serial2.available()){
-    Serial.write(Serial2.read());
-  }
-}
+    Serial.write(Serial2.read());}}
 }
